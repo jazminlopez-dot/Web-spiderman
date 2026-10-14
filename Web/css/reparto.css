@@ -1,0 +1,20 @@
+*{
+box-sizing: border-box;
+margin: 0; 
+padding: 0;
+}
+
+#nombres {
+    margin: 30px 0 0 0 ;
+    padding: 0 0 0 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+img{
+    margin: 9px 0 0 20px;
+}
+
+#pp {
+    margin: 0 500px 0px 0;
+}

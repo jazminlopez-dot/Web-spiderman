@@ -1,0 +1,20 @@
+h1 {
+    font-size: xx-large;
+    margin: 40px 0 0 0;
+    color: red;
+    text-shadow: 1px 1px 1px rgb(2, 2, 2);
+}
+
+.bold {
+ font-weight: 700;
+ margin: 10px 0 0 0;
+}
+
+.parrafo {
+    margin: 0 0 0 -20px;
+}
+
+#pp {
+    font-size: 20px;
+    font-weight: 415;
+}

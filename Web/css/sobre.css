@@ -1,0 +1,27 @@
+h1 {
+    font-size: xx-large;
+    margin: 40px 0 0 0;
+    color: red;
+    text-shadow: 1px 1px 1px rgb(2, 2, 2);
+}
+
+#titulos {
+    font-size: large;
+    padding: 20px 0 0 30px;
+}
+
+#glasgow {
+    padding: 0 0 0 40px;
+    margin: 0 0 0 -10px;
+    font-size: 20px;
+    font-weight: 415;
+}
+
+#bold {
+    font-weight: 700;
+}
+
+.pad {
+    margin: 0 0 20px 0;
+}
+

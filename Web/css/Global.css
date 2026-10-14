@@ -1,0 +1,141 @@
+*{
+box-sizing: border-box;
+margin: 0; 
+padding: 0;
+}
+
+body{
+    background-color: #ffe9ef;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: auto;
+    background-image: url(../img/web.png);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-position: top left;
+    background-attachment: fixed;
+    
+}
+nav{
+    background-color: #e70604;
+    padding: 20px 10px 10px 20px;
+    
+}
+
+a{
+    color: white;
+    padding: 0 20px 0 0;
+
+}
+header{
+    background-color: #e70604;
+}
+
+#centro{ 
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.texto{
+    text-align: center;
+}
+
+#Tracker{
+    color: red;
+    padding: 0 0 0 20px;
+    text-align: center;
+}
+
+#genero {
+    font-size: 20px;
+}
+h2,h3,h4, h5 {
+    padding: 10px;
+}
+
+p {
+    padding: 0 0 0 20px;
+}
+
+#glasgow {
+    padding: 0 0 0 20px;
+}
+
+#lista {
+    padding: 0 0 0 20px;
+    font-size: 20px;
+    font-weight: 415;
+}
+
+.intro {
+    text-align: left;
+    padding: 0 200px 50px 200px;
+}
+
+#pp {
+    padding: 0 0 0 20px;
+}
+
+#contact{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 50px 50px 30px 50px;
+}
+
+.sobrepeli {
+    margin: 0 300px 0px 30px;
+}
+
+.produ {
+    margin: 0 300px 0px 30px;
+    
+}
+
+#mas {
+    margin: 0 300px 0px 30px;
+}
+
+.rodaje {
+    margin: 20px 0 0 20px ;
+}
+
+.img {
+    margin: 20px 0 0 200px;
+
+}
+
+.titulo {
+    font-size: xx-large;
+    margin: 40px 0 0 -10px;
+    color: red;
+    text-shadow: 1px 1px 1px rgb(2, 2, 2);
+}
+
+.sub {
+    margin: 40px 0 0 -10px;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 415;
+}
+
+#footer {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgb(33, 33, 185);
+    padding: 30px;
+    margin: 18px 0 0 0;
+    position: sticky;
+    bottom: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
