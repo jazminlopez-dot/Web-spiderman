@@ -5,33 +5,52 @@ padding: 0;
 }
 
 body{
-    background-color: #ffe9ef;
+/* 
+    background-image: url(../img/poster\ 2.png);
+    background-size: 100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+     */
+   
+background-image:
+    url("../img/poster\ 2.png"),
+    linear-gradient(0deg, rgba(231, 6, 4, 1) 0%, rgba(255, 233, 239, 1) 100%);
+
+background-size: 100%, 100%;
+background-position: top left, center;
+background-repeat: no-repeat, no-repeat;
+
+   /*  background: #E70604;
+    background: linear-gradient(0deg, rgba(231, 6, 4, 1) 0%, rgba(255, 233, 239, 1) 100%); */
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     margin: auto;
-    background-image: url(../img/web.png);
-    background-size: cover;
-    background-blend-mode: soft-light;
-    background-position: top left;
-    background-attachment: fixed;
+
     
 }
 nav{
-    background-color: #e70604;
-    padding: 20px 10px 10px 20px;
-    
+    /* background-color: #e70604; */
+    border-radius: 10px;
+    padding: 50px;
+    border: #E70604;
 }
 
 a{
+    background-color: #E70604;
+    border-radius: 20px;
     color: white;
-    padding: 0 20px 0 0;
+    text-decoration: none;
+    padding: 8px 12px 8px 12px;
+    margin: 5px;
+    box-shadow: 20px;
+    position: sticky;
 
 }
-header{
+/* header{
     background-color: #e70604;
-}
+} */
 
 #centro{ 
     text-align: center;
@@ -41,6 +60,8 @@ header{
 
 .texto{
     text-align: center;
+    margin: 540px 0 0 0 ;
+    color: white;
 }
 
 #Tracker{
@@ -139,3 +160,4 @@ header {
     position: sticky;
     top: 0;
 }
+
