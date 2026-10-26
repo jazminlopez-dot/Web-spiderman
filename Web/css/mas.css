@@ -1,0 +1,9 @@
+body {
+     background-image: url(../img/clark-gu-x1-4c42c8k4-unsplash.jpg);
+    background-size: cover;
+    color: white;
+}
+
+#lista {
+    text-shadow: 1px 1px 1px rgb(2, 2, 2);
+}

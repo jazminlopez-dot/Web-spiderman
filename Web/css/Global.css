@@ -44,7 +44,7 @@ a{
     text-decoration: none;
     padding: 8px 12px 8px 12px;
     margin: 5px;
-    box-shadow: 20px;
+    box-shadow: 1px 1px 5px rgb(2, 2, 2);
     position: sticky;
 
 }
@@ -64,11 +64,7 @@ a{
     color: white;
 }
 
-#Tracker{
-    color: red;
-    padding: 0 0 0 20px;
-    text-align: center;
-}
+
 
 #genero {
     font-size: 20px;
@@ -100,11 +96,7 @@ p {
     padding: 0 0 0 20px;
 }
 
-#contact{
-    font-weight: 700;
-    font-size: 30px;
-    padding: 50px 50px 30px 50px;
-}
+
 
 .sobrepeli {
     margin: 0 300px 0px 30px;

@@ -1,3 +1,10 @@
+body{
+    background-image: url(../img/clark-gu-x1-4c42c8k4-unsplash.jpg);
+    background-position: sticky;
+    background-size: cover;
+    color: white;
+}
+
 h1 {
     font-size: xx-large;
     margin: 40px 0 0 0;
@@ -17,4 +24,5 @@ h1 {
 #pp {
     font-size: 20px;
     font-weight: 415;
+    text-shadow: 1px 1px 1px rgb(2, 2, 2);
 }

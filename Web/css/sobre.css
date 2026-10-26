@@ -1,9 +1,19 @@
+*{
+box-sizing: border-box;
+margin: 0; 
+padding: 0;
+}
+
 body {
+    min-height: 100vh;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    background: #E70604;
-    background: linear-gradient(0deg, rgba(231, 6, 4, 1) 0%, rgba(255, 233, 239, 1) 100%);
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    background-image: url(../img/clark-gu-x1-4c42c8k4-unsplash.jpg);
+    background-size: cover;
+    /* background: #E70604;
+    background: linear-gradient(0deg, rgba(231, 6, 4, 1) 0%, rgba(255, 233, 239, 1) 100%); */
 }
 
 h1 {
@@ -13,9 +23,22 @@ h1 {
     text-shadow: 1px 1px 1px rgb(2, 2, 2);
 }
 
+/* main {
+    flex: auto;
+} */
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 10px;
+}
+
 #titulos {
     font-size: large;
     padding: 20px 0 0 30px;
+    color: white;
 }
 
 #glasgow {
@@ -23,6 +46,7 @@ h1 {
     margin: 0 0 0 -10px;
     font-size: 20px;
     font-weight: 415;
+    color: white;
 }
 
 #bold {
@@ -33,3 +57,14 @@ h1 {
     margin: 0 0 20px 0;
 }
 
+p {
+    color: white;
+    font-size: medium;
+}
+
+.sobrepeli {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+}

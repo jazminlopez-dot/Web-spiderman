@@ -1,0 +1,41 @@
+ *{
+box-sizing: border-box;
+margin: 0; 
+padding: 0;
+}
+ 
+ body { background-image: url(../img/clark-gu-x1-4c42c8k4-unsplash.jpg);
+    min-height: 100vh;
+ }
+
+ main {
+    flex: auto;
+    min-height: 100vh;
+ }
+
+ #contact {
+
+    font-weight: 700;
+    font-size: 30px;
+    padding: 50px 50px 30px 50px;
+    font-size: large;
+
+ }
+
+#Tracker{
+    background-color: rgb(0, 2, 116);
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgb(33, 33, 185);
+    padding: 15px;
+    position: static;
+    bottom: 0;
+}
