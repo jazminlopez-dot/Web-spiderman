@@ -59,12 +59,3 @@ h1{
     font-size:large;
 }
 
-.flex{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    justify-content: center;
-    gap: 8px;
-    
-}

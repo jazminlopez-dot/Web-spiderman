@@ -6,10 +6,10 @@ padding: 0;
 
 body {
     min-height: 100vh;
-    display: flex;
+   /*  display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
-    justify-content: space-between;
+   /*  justify-content: space-between; */ 
     background-image: url(../img/clark-gu-x1-4c42c8k4-unsplash.jpg);
     background-size: cover;
     /* background: #E70604;
@@ -29,7 +29,7 @@ h1 {
 
 .flex {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
     gap: 10px;
@@ -62,9 +62,38 @@ p {
     font-size: medium;
 }
 
-.sobrepeli {
+/* .sobrepeli {
     display: flex;
-    flex-direction: column;
-    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
     gap: 20px;
+}
+iframe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: left;
+    margin: 0 0 0 30px;
+     justify-content: center;
+}
+.peterp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin:  0 0 0 20px;
+}   
+ */
+
+ .sinopsis{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    justify-content: center;
+    gap: 8px;
+    font-size: 20ch;
+    
 }
