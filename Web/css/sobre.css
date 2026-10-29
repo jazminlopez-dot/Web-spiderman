@@ -62,30 +62,6 @@ p {
     font-size: medium;
 }
 
-/* .sobrepeli {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-    gap: 20px;
-}
-iframe {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 50%;
-    align-items: left;
-    margin: 0 0 0 30px;
-     justify-content: center;
-}
-.peterp {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 50%;
-    margin:  0 0 0 20px;
-}   
- */
 
  .sinopsis{
     display: flex;
@@ -93,7 +69,43 @@ iframe {
     /* flex-wrap: wrap; */
     justify-content: space-evenly;
     justify-content: center;
+    align-items: center;
     gap: 8px;
-    font-size: 20ch;
     
+    
+}
+.sin{
+    width: 80ch;
+}
+iframe{
+
+  width: 90vh;
+
+}
+
+.rodaje {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+.tom {
+    border-radius: 15px;
+    background-color: #2136f4;
+    padding: 20px 15px 20px 15px ;
+}
+.escocia {
+     border-radius: 15px;
+    background-color: #2136f4;
+    padding: 20px 15px 20px 15px ;
+}
+
+.gente {
+     border-radius: 15px;
+    background-color: #2136f4;
+    padding: 20px 15px 20px 15px ;
 }
