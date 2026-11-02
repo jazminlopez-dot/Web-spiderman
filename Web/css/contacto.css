@@ -39,3 +39,30 @@ padding: 0;
     position: static;
     bottom: 0;
 }
+.flex {
+   display: flex;
+   flex-direction: column;
+}
+label {
+     font-weight: 700;
+    font-size: 30px;
+    padding: 50px 50px 30px 50px;
+    font-size: large;
+ color: white;
+}
+input {
+   width: 200px;
+   height: 30px;
+}
+h1{
+   color: rgb(249, 2, 2);
+    font-weight: 700;
+    font-size: 30px;
+    padding: 50px 50px 30px 400px;
+    font-size: large;
+    text-align: left;
+}
+form {
+   margin: 20px;
+   text-align: center;
+}
