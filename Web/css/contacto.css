@@ -42,27 +42,46 @@ padding: 0;
 .flex {
    display: flex;
    flex-direction: column;
+
 }
 label {
      font-weight: 700;
     font-size: 30px;
-    padding: 50px 50px 30px 50px;
+    padding: 20px 50px 20px 50px;
     font-size: large;
  color: white;
 }
 input {
-   width: 200px;
-   height: 30px;
+   width: 280px;
+   height: 40px;
+   margin: 3px 0 3px 60px;
+   
+   color: white;
+   background-color: rgb(2, 2, 107);
+   border-radius: 15px;
+   
 }
 h1{
    color: rgb(249, 2, 2);
-    font-weight: 700;
+    font-weight: 800;
     font-size: 30px;
-    padding: 50px 50px 30px 400px;
-    font-size: large;
+    padding: 50px 50px 30px 50px;
+    font-size: xx-large;
     text-align: left;
 }
 form {
    margin: 20px;
-   text-align: center;
+   text-align: left;
+}
+
+button {
+   background-color: rgb(249, 2, 2);
+   color: white;
+    font-weight: 700;
+    font-size: 30px;
+   padding: 5px;
+    font-size: large;
+    text-align: left;
+    width: 200px;
+margin: 20px 20px 20px 60px;
 }

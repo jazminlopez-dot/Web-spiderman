@@ -35,12 +35,22 @@
     <main>
    
 
-<form action="./confirmacion.html" method="get">
+<form action="./confirmacion.html" method="get" class="flex">
     <h1>Llene el formulario:</h1>
+
     <label for="apellido">Ingrese su nombre...</label>
     <input type="text" name="nombre" id="nombre">
+
   <label for="nombre">Ingrese su apellido...</label>
     <input type="text" name="apellido" id="apellido">
+
+    <label for="mail">Ingrese su mail...</label>
+    <input type required="text" name="mail" id="mail">
+
+    <label for="nombre">Dejanos un comentario...</label>
+    <input type="text" name="mensaje" maxlength="300" id="mensaje">
+
+    <button type="submit">Enviar</button>
 </form>
 
  <div id="contact" >
