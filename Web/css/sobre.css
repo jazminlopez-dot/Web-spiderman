@@ -95,9 +95,10 @@ iframe{
 }
 .tom {
     border-radius: 15px;
-    background-color: #2136f4;
-    padding: 20px 15px 20px 15px ;
+    /* background-color: #2136f4; */
+   /*  padding: 20px 15px 20px 15px ; */
      transition: transform 0.3s ease;
+     box-shadow: 1px 1px 5px rgb(2, 2, 2);
 }
 
 .tom:hover {
@@ -106,8 +107,9 @@ iframe{
 }
 .escocia {
      border-radius: 15px;
-    background-color: #2136f4;
-    padding: 20px 15px 20px 15px ;
+    /* background-color: #2136f4; */
+   /*  padding: 20px 15px 20px 15px ; */
+    box-shadow: 1px 1px 5px rgb(2, 2, 2);
     transition: transform 0.3s ease;
 }
 .escocia:hover {
@@ -116,8 +118,9 @@ iframe{
 }
 .gente {
      border-radius: 15px;
-    background-color: #2136f4;
-    padding: 20px 15px 20px 15px ;
+   /*  background-color: #2136f4; */
+   /*  padding: 20px 15px 20px 15px ; */
+   box-shadow: 1px 1px 5px rgb(2, 2, 2);
     transition: transform 0.3s ease;
 }
 .gente:hover {

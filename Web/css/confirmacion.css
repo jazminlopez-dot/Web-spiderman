@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+    box-shadow: 1px 1px 5px rgb(2, 2, 2);
+    padding: 60px 0 0 20px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    padding: 60px 0 0 20px;
+    text-align: center;
+}
+ body {background-image: url(../img/clark-gu-x1-4c42c8k4-unsplash.png);
+    min-height: 100vh;
+ }
